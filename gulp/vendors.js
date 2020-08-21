@@ -5,7 +5,7 @@ const vendorsScripts = [
     'node_modules/jquery/dist/jquery.min.js',
     'node_modules/swiper/swiper-bundle.js',
     // 'node_modules/owl.carousel/dist/owl.carousel.min.js',
-    'node_modules/slick-carousel/slick/slick.min.js',
+    // 'node_modules/slick-carousel/slick/slick.min.js',
 ];
 
 module.exports = function vendors(cb) {

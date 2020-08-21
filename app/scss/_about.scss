@@ -1,0 +1,52 @@
+.about {
+    display: flex;
+    align-items: center;
+    min-height: 800px;
+    background: url('../images/about-bg.jpg') center right no-repeat;
+    background-size: 50%;
+
+    &__inner {
+        max-width: 340px;
+    }
+
+    &__scroll-block {
+        padding-left: 40px;
+        height: 450px;
+        overflow-y: scroll;
+        direction: rtl;
+        text-align: left;
+        scrollbar-color: #1e82f5 #395b80;
+    }
+
+    &__inner {}
+
+    &__title {
+        margin-bottom: 70px;
+    }
+
+    &__scroll-title {
+        @include font('ms-semibold');
+        font-size: 24px;
+        background: url('../images/about_rock-img.png') left  no-repeat;
+        margin-bottom: 35px;
+        padding-left: 60px;
+    }
+
+    &__scroll-inner {
+        direction: ltr;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        margin-top: 22px;
+
+        strong {
+            @include font('ms-semibold');
+            color: #2586f5;
+        }
+    }
+
+
+}

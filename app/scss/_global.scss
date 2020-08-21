@@ -14,6 +14,7 @@ body {
   font-size: 14px;
   letter-spacing: .5px;
   color: #ffffff;
+  background-color: #223954;
 }
 
 ul,
@@ -49,6 +50,12 @@ button {
   border: none;
 }
 
+main {
+  background: url('../images/main-bg.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 3000px;
+}
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -56,8 +63,54 @@ button {
   margin: 0 auto;
 }
 
+.btn {
+  position: relative;
+  font-size: 17px;
+  background-color: #2763fb;
+  padding: 15px 30px;
+  z-index: 5;
+  transition: .3s ease;
+  border: 3px solid transparent;
+
+
+  &::before {
+    position: absolute;
+    content: "";
+    border: 3px solid #fff;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+    transition: .3s ease;
+  }
+
+  &:hover {
+    border: 3px solid #fff;
+
+    &::before {
+      transform: translate(-10px, -10px);
+      border-color: transparent;
+    }
+  }
+}
+
 .section-title {
   @include font('ms-semibold');
   font-size: 36px;
 }
 
+::-webkit-scrollbar {
+  background-color: #395b80;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e82f5;
+  width: 8px;
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment {
+  display: none;
+}

@@ -30,6 +30,11 @@
     font-weight: 400;
   }
 
+  @if $name == 'opensans-bold' {
+    font-family: 'Opensans-Bold', Arial, sans-serif;
+    font-weight: 700;
+  }
+
   @if $name == 'planet' {
     font-family: 'Planet-ns', Arial, sans-serif;
     font-weight: 400;
