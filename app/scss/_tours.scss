@@ -64,9 +64,26 @@
         color: #000;
         max-width: 320px;
         min-width: 320px;
-        height: 475px;
+        height: 495px;
         transition: .3s ease;
     }
+
+    &__item--1 {
+        background-image:url('../images/slider_img-first.jpg');
+    }
+
+    &__item--2 {
+        background-image:url('../images/slider_img-second.jpg')
+    }
+
+    &__item--3 {
+        background-image:url('../images/slider_img-third.jpg')
+    }
+
+    &__item--4 {
+        background-image:url('../images/slider_img-fourth.jpg')
+    }
+
 
     &__item-inner {
         padding: 30px;
