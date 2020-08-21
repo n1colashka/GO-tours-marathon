@@ -12,7 +12,7 @@ $(function () {
     });
 
     var reviewsSwiper = new Swiper('.reviews__slider', {
-        slidesPerView: 1,
+        slidesPerView: 'auto',
         centeredSlides: true,
         loop: true,
         pagination: {
