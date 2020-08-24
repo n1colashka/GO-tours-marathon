@@ -163,7 +163,7 @@ main {
   position: relative;
   background: url("../images/header-bg-clear.jpg") top center no-repeat;
   background-size: cover;
-  min-height: 740px; }
+  min-height: 100vh; }
   .header::before {
     position: absolute;
     content: 'Norway';
