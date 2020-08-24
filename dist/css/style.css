@@ -874,8 +874,6 @@ main {
     font-size: 46px; }
   .header__subtitle {
     font-size: 16px; }
-  .header__inner {
-    min-height: 450px; }
   .header__socials {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
